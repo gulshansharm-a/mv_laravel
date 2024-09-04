@@ -84,6 +84,7 @@
 
 
 <body>
+    @include('nav')
     <!-- crousal -->
     <section>
         <div id="carouselExample" class="carousel slide">
