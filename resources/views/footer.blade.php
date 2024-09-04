@@ -21,17 +21,18 @@
 }
 
 #section1footer {
-    width: 600px;
+
     max-width: 100%; /* Ensure it doesn't overflow */
     box-sizing: border-box; /* Include padding/border in the width */
 }
 
 #section2footer {
-    width: 300px;
+
     max-width: 100%; /* Ensure it doesn't overflow */
     display: flex;
     align-items: center;
     flex-direction: column;
+   
     box-sizing: border-box; /* Include padding/border in the width */
 }
 

@@ -7,8 +7,8 @@
     <!-- Bootstrap CSS -->
     <style>
         .contact-wrapper {
-            margin-top: 5rem;
-            margin-bottom: 5rem;
+          
+            margin-bottom: 3rem;
         }
 
         .contact-wrapper .image-wrapper {
@@ -36,12 +36,15 @@
 
         .contact-wrapper .input-control {
             width: 100%;
+            border:none;
+            border-bottom: 1px solid black;
+            padding: 20px;
         }
 
         .contact-wrapper .submit-btn {
             width: auto;
             background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-
+            outline: blue;
             color: #fff; /* Text color */
             padding: 12px 30px;
             border-radius:7px;

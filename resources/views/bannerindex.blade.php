@@ -7,8 +7,8 @@
   <style>
     #banners {
       width: 100%;
-      margin-top: 50px;
-      height: 130vh;
+      margin-top: 100px;
+      height: 110vh;
       display: flex;
       align-items: center;
       flex-direction: column;
@@ -18,14 +18,18 @@
       width: 100%;
       height: 50%;
       background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       background-repeat: no-repeat;
     }
     #imgbanner1, #imgbanner2 {
-      width: 100%; 
+      width: 1600px; 
       height: 800px;
-      border: none;    /* Ensure no border is applied */
-      outline: none;   /* Remove any outline */
-      display: block;  /* Ensures no inline elements' spacing issues */
+      border: none;
+      outline: none;
+      display: block;
     }
     @media only screen and (max-width: 1320px) {
       #imgbanner1, #imgbanner2 {
@@ -35,16 +39,17 @@
     }
     @media only screen and (max-width: 1000px) {
       #banners {
-        height: 80vh;
+        height: 60vh;
+        margin: 0px;
       }
       #banner {
-        background-image: url('images/mobile-banner.png');
+       
         background-position: center;
         background-size: contain; 
         width: 100% !important;
       }
       #banner1 {
-        background-image: url('images/mobile-banner1.png');
+     
         height: 60%;
         margin-top: 60px;
         background-position: center;
@@ -57,7 +62,7 @@
   <section class="container-fluid my-2 mt-5">
     <div id="banners">
       <div id="banner">
-        <img src="images/frame1.png" alt="" id="imgbanner1" alt="hello">
+        <img src="images/frame1.png" alt="hello" id="imgbanner1">
       </div>
       <div id="banner1">
         <img src="images/frame2.png" alt="" id="imgbanner2">
@@ -67,11 +72,8 @@
   <script>
     function updateBanner() {
       if (window.innerWidth <= 1000) {
-        document.getElementById('imgbanner1').style.display = "none";
-document.getElementById('imgbanner2').style.display = "none";
-
-     
-       
+        document.getElementById('imgbanner1').src = "images/mobile-banner.png";
+        document.getElementById('imgbanner2').src = "images/mobile-banner1.png";
       }
     }
 
