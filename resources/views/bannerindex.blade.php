@@ -25,7 +25,7 @@
       background-repeat: no-repeat;
     }
     #imgbanner1, #imgbanner2 {
-      width: 1600px; 
+      width: 1300px; 
       height: 800px;
       border: none;
       outline: none;
@@ -34,8 +34,19 @@
     @media only screen and (max-width: 1320px) {
       #imgbanner1, #imgbanner2 {
         width: 100%; 
-        height: 600px;
+        height: 300px;
       }
+      #banners {
+        height: 90vh;
+        
+      }
+      #imgbanner1, #imgbanner2 {
+      width: 1000px; 
+      height: 600px;
+      border: none;
+      outline: none;
+      display: block;
+    }
     }
     @media only screen and (max-width: 1000px) {
       #banners {
