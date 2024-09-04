@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/contactus', function () {
-    return view('contactus');
+    return view('contactpage');
 });
 
 Route::get('/categories', function () {
