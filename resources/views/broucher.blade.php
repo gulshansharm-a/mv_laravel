@@ -10,19 +10,14 @@
         #boucher-section {
             border-radius: 15px;
             background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
-            padding: 20px;
             display: flex;
-            justify-content: space-between; /* Align items to the edges */
-            align-items: center; /* Center items vertically */
+            justify-content: space-between;
+            align-items: center;
             color: white;
             font-weight: bolder;
-            text-align: left; /* Align text to the left */
-            max-width: 1200px; /* Limit the maximum width */
-            margin: 0 auto; /* Center the section horizontally */
-        }
-
-        #boucher-section .text-content {
-            flex: 1; /* Allow the text content to take available space */
+            height: 200px;
+            padding: 20px 30px; /* Padding to move content away from corners */
+            margin: 0 auto;
         }
 
         #boucher-button {
@@ -39,24 +34,27 @@
 
         @media (max-width: 768px) {
             #boucher-section {
-                flex-direction: column; /* Stack items vertically on smaller screens */
-                text-align: center; /* Center text alignment */
+                flex-direction: column;
+                text-align: center;
+                height: auto;
+                padding: 20px 20px; /* Adjust padding for smaller screens */
             }
 
             #boucher-button {
                 padding: 10px 30px;
                 font-size: 0.9rem;
+                margin-top: 15px;
             }
         }
     </style>
 </head>
 <body>
-    <section class="container ">
-        <div id="boucher-section" class="row gx-4"> <!-- Added gx-4 for horizontal spacing -->
-            <div class="col-md-6 text-content">
-                <h2 class="mx-5">Download Our Latest Brochure!</h2>
+    <section class="container mt-5">
+        <div id="boucher-section">
+            <div class="text-content">
+                <h2>Download Our Latest Brochure!</h2>
             </div>
-            <div class="col-md-6 text-md-end">
+            <div>
                 <a id="boucher-button" href="#">Download Now</a>
             </div>
         </div>

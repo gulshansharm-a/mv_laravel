@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MV LED's-Categories</title>
+
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/contact.css">
@@ -630,72 +631,6 @@ text-align: center;}
 </section>
 
 @include('contactus')
-    <footer data-aos="fade-out" data-aos-mirror="true" data-aos-duration="1000">
-        <div id="section1footer">
-            <img src="/images/logo.png" height="100px" alt="" srcset="">
-            <h1 style="margin-top: 30px;">Motvic Consumable <br> Electrical PVT ltd</h1>
-            <p style="margin-top: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero
-                et velit interdum, ac
-                aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
-                velit interdum, a</p>
-
-        </div>
-        <style>
-            a {
-    text-decoration: none; /* Removes the underline */
-    color: inherit; /* Inherits the color from the parent element */
-}
-
-        </style>
-        <div id="section2footer">
-            <ul>
-                <a href="/home.html">
-
-                    <li>Home</li>
-                </a>
-                <a href="/categories.html">
-                    
-                    <li>Categories</li>
-                </a>
-                
-                
-                <a href="/aboutus.html">
-                    
-                    <li>AboutUs</li>
-                </a><a href="/contact.html">
-                    
-                    <li>Contact Us</li>
-                </a>
-            </ul>
-            <div id="phone-footer">
-                <img src="/images/phone.png" alt="" id="phone-img" srcset="" height="40px">
-                <label for="" style="font-size: 1.4rem; color: black;">
-                    +91 99203 12344
-                </label>
-            </div>
-
-        </div>
-        <div id="section3footer">
-            <div id="socialmedia">
-                <h5>Social Links</h5>
-                <div id="footersocial">
-
-                    <a href="https://www.linkedin.com/company/motvic-consumable-electrical-p-ltd">
-                        <img src="/images/linkdein.png" class="social" height="60px" alt="">
-                    </a>
-                    <!-- <img src="images/facebook.png" class="social" height="60px" alt=""> -->
-                    <a href="https://www.instagram.com/motvic_consumable/?igsh=MWJicWc2ZGoyZ280MA%3D%3D">   <img src="images/instagram.png" class="social" height="60px" alt="">
-                    </a>
-                </div>
-            </div>
-            <div id="footermail">
-                <img src="/images/mail.png" height="40px" alt="">
-                <h4>sales@mvconsumable.com <br>
-                    vijay@motvic.co
-                </h4>
-            </div>
-        </div>
-    </footer>
     <script src="/javascript/script.js"></script>
     <script src="/javascript/index.js"></script>
     <script>
