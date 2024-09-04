@@ -148,8 +148,7 @@ text-align: center;}
 </head>
 
 <body>
-   @include('nav')
-  
+   @include('nav')  
         <div id="carouselExample" class="carousel slide" data-aos="fade-left" data-aos-duration="1000" >
             <div class="carousel-inner">
                 <div class="carousel-item active">

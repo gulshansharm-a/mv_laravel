@@ -186,6 +186,14 @@
                 height: 40px;
                 width: 40px;
             }
+            #gradient-text {
+    background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px !important;
+    font-weight: bold;
+    margin: 0;
+}
         }
     </style>
 </head>

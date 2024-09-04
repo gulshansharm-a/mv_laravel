@@ -40,7 +40,7 @@
 
         /* Styling for the paragraph */
         .hero-paragraph {
-            font-size: 1.25rem; /* Default font size for larger screens */
+            font-size: 36px !important; /* Default font size for larger screens */
             margin-bottom: 30px; /* Space below the paragraph */
             color: #647E8B;
         }
@@ -58,18 +58,27 @@
         /* Responsive styles for tablets */
         @media (max-width: 768px) {
             .hero-heading {
-                font-size: 2.3rem !important; /* Adjust font size for tablet devices */
+                font-size: 36px !important; /* Adjust font size for tablet devices */
             }
 
             .hero-paragraph {
-                font-size: 1.2rem !important; /* Adjust font size for tablet devices */
+                font-size: 16px !important; /* Adjust font size for tablet devices */
             }
+            .hero-button {
+            background-color: white !important;
+            padding: 18px 25px;
+            color: blue;
+            border: none;
+            border-radius: 28px;
+            margin-top: 30px; /* Add space above the button */
+        }
+
         }
 
         /* Responsive styles for mobile devices */
         @media (max-width: 576px) {
             .hero-heading {
-                font-size: 2.3rem !important; /* Adjust font size for mobile devices */
+                font-size:  !important; /* Adjust font size for mobile devices */
             }
 
             .hero-paragraph {

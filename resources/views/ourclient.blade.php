@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
     <title>Responsive Marquee Slider</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
+      
         .wrapper {
             background-color: #f7f7f7;
             padding: 20px 0;
+            width:100%;
         }
 
         .marquee {
@@ -65,16 +63,14 @@
             background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
             -webkit-background-clip: text;
             background-clip: text;
-            margin-top: 10vh;
             margin-bottom: 60px;
             color: transparent;
         }
     </style>
 </head>
 <body>
-    <section id="clients" class="container " data-aos="fade-left" data-aos-duration="800">
+    <section id="clients" class="container-fluid " data-aos="fade-left" data-aos-duration="800">
         <h1>Our Clientele</h1>
-    </section>
 
     <article class="wrapper">
         <div class="marquee">
@@ -109,5 +105,7 @@
             </div>
         </div>
     </article>
+    </section>
+
 </body>
 </html>
