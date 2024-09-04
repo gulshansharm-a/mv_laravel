@@ -136,7 +136,7 @@ img {
 
 
 }
-.mContact{font-size: 3.4rem;
+.mContact{
 background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
 -webkit-background-clip: text;
 background-clip: text;
@@ -146,92 +146,7 @@ text-align: center;}
 </head>
 
 <body>
-    <nav class="navbar">
-        <div id="container-logo">
-            <a href="index.html">
-
-                <img src="/images/logo.png" id="logo" alt="Logo">
-            </a>
-                <p class="titlesss" style="margin-top: 30px;">Motvic Consumable <br> Electrical PVT ltd</p>
-        </div>
-        <style>
-            #container-navigation ul li:hover{
-                background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    margin-top: 8px;
-    color: transparent;
-            }
-        </style>
-        <div id="container-navigation">
-            <ul>
-                <li><a href="/aboutus.html" class="mEdits">About Us</a></li>
-                <li><a href="/categories.html" class="mEdits">Categories</a></li>
-            </ul>
-        </div>
-        <style>
-            #div-contact {
-                background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-                height: 60px;
-                width: 160px;
-                margin-right: 50px;
-                border-radius: 30px;
-                display: flex;
-                padding-top: 8px;
-                align-items: center;
-                justify-content: center;
-                color: white;
-
-            }
-
-            @media only screen and (max-height: 700px) {
-                #about-section1 {
-                    margin-top: 200px;
-                }
-                #about-section1 h1{
-                    font-size: 0.9rem;
-                }
-            }
-
-            @media only screen and (max-width: 1000px) {
-                #div-contact {
-                    display: none;
-                }
-
-                #div-contact {
-                    display: none;
-                }
-            }
-        </style>
-        
-        <div id="div-contact">
-
-            <h5><a href="/contact.html" class="button-contactus11" style="margin-top: 20px;">Contact Us</a></h5>
-        </div>
-        <div id="hamb">
-            <div class="device">
-                <div class="container" >
-                    <button class="navTrigger" id="navTrigger">
-                        <svg viewBox="0 0 64 48">
-                            <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37"></path>
-                            <path d="M19,24 L45,24 C61.2371586,24 57,49 41,33 L32,24"></path>
-                            <path d="M45,33 L19,33 C-8,33 6,-2 22,14 L45,37"></path>
-                        </svg>
-                    </button>
-                    <nav class="navMenu" id="navMenu">
-                        <ul>
-                            <li><a href="#"></a></li>
-                            <li><a href="aboutus.html">About &amp; Us &nbsp; </a></li>
-                            <li><a href="categories.html"> &nbsp; &nbsp; &nbsp;Categories</a></li>
-                       
-                            <li><br></li>
-                            <li><br></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </nav>
+   @include('nav')
     <div>
         <div id="carouselExample" class="carousel slide" data-aos="fade-left" data-aos-duration="1000" >
             <div class="carousel-inner">

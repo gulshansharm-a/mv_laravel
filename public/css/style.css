@@ -657,6 +657,9 @@ textarea.form-control {
   margin-right: 3%;
   font-size: 1.4rem;
 }
+input{
+  padding: 30px;
+}
 #container-navigation ul li{}
 @media only screen and (max-width: 1000px) {
   #div-contact{

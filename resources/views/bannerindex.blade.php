@@ -20,11 +20,18 @@
       background-size: cover;
       background-repeat: no-repeat;
     }
-    #banner {
-      background-image: url('images/frame1.png');
+    #imgbanner1, #imgbanner2 {
+      width: 100%; 
+      height: 800px;
+      border: none;    /* Ensure no border is applied */
+      outline: none;   /* Remove any outline */
+      display: block;  /* Ensures no inline elements' spacing issues */
     }
-    #banner1 {
-      background-image: url('images/frame2.png');
+    @media only screen and (max-width: 1320px) {
+      #imgbanner1, #imgbanner2 {
+        width: 100%; 
+        height: 600px;
+      }
     }
     @media only screen and (max-width: 1000px) {
       #banners {
@@ -50,16 +57,29 @@
   <section class="container-fluid my-2 mt-5">
     <div id="banners">
       <div id="banner">
-        <a href="Roca.pdf" download="Roca.pdf" style="display: block; width: 100%; height: 100%; text-decoration: none; color: inherit;">
-          <div style="width: 100%; height: 100%;"></div>
-        </a>
+        <img src="images/frame1.png" alt="" id="imgbanner1" alt="hello">
       </div>
       <div id="banner1">
-        <a href="https://www.dolanto.com/" style="display: block; width: 100%; height: 100%;">
-          <div style="width: 100%; height: 100%;"></div>
-        </a>
+        <img src="images/frame2.png" alt="" id="imgbanner2">
       </div>
     </div>
   </section>
+  <script>
+    function updateBanner() {
+      if (window.innerWidth <= 1000) {
+        document.getElementById('imgbanner1').style.display = "none";
+document.getElementById('imgbanner2').style.display = "none";
+
+     
+       
+      }
+    }
+
+    // Run the function when the page loads
+    window.onload = updateBanner;
+
+    // Run the function whenever the window is resized
+    window.onresize = updateBanner;
+  </script>
 </body>
 </html>
