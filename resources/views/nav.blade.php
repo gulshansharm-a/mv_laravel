@@ -204,7 +204,7 @@
             </ul>
         </div>
         <div id="div-contact">
-            <h5><a href="/contact" class="button-contactus11">Contact Us</a></h5>
+            <h5><a href="/contactus" class="button-contactus11">Contact Us</a></h5>
         </div>
         <div class="hamburger-menu" onclick="toggleMenu()">
             <div class="hamburger-icon">
