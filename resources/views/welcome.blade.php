@@ -57,10 +57,11 @@
     <div id="widths">
         @include('herosection')
         @include('aboutus')
-        @include('cards')
+        <!-- @include('cards') -->
     </div>
 
         @include('ourclient')
+
 
 
         @include('bannerindex')

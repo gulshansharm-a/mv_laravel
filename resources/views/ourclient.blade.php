@@ -69,7 +69,7 @@
     </style>
 </head>
 <body>
-    <section id="clients" class="container-fluid " data-aos="fade-left" data-aos-duration="800">
+    <section id="clients" class="container " data-aos="fade-left" data-aos-duration="800">
         <h1>Our Clientele</h1>
 
     <article class="wrapper">

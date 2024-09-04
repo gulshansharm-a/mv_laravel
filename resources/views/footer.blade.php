@@ -186,6 +186,7 @@ font-size: 1rem;
     }
   
     #container-navigation ul li{
+        text-align:left;
        font-size: 1.2rem;
     }
 
