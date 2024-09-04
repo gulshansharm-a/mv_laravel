@@ -18,13 +18,14 @@
 }
 
 .text-container h1 {
-    font-size: 3.5rem;
+    font-size: 76.38;
     color: #0551D5;
+    font-weight:bold
 }
 
 .text-container p {
     margin: 20px 0;
-    font-size: 1.2rem;
+    font-size: 20px;
     color: #333;
 }
 
@@ -59,13 +60,12 @@
 .image-container img:first-child {
     height: 500px; /* Adjusted to make the first image larger */
 }
-.hero-button {
-            background-color: white !important;
+.hero1-button {
+            background-color: whitesmoke !important;
             padding: 18px 20px;
             color: blue;
             border: none;
             border-radius: 28px;
-            box-shadow: 2px 2px 2px 2px black;
             margin-top: 30px; /* Add space above the button */
         }
         #image-hero1{
@@ -88,6 +88,8 @@
     padding: 20px;
     height: 800px;
 }
+
+
 
         }
         @media (max-width: 800px) {
@@ -131,16 +133,16 @@
         }
         
 </style>
-<div class="container-fluid  ">
+<div class="container-fluid ">
 
     <div id="commercial-lighting-section">
         <div class="text-container ">
-            <h1>Commercial Lighting</h1>
-            <p >
+            <h1 class=""commercial>Commercial Lighting</h1>
+            <p class="commercialtext" >
             There are countless versions of lorem ipsum, the most famous fake text in the world. The versions of lorem ipsum differ in the order in which the Latin words are repeated or how they are cut.
             There are countless versions of lorem ipsum, the most famous fake text in the world. The versions of lorem ipsum differ in the order in which the Latin words are repeated or how they are cut.
             </p>
-            <button class="hero-button">
+            <button class="hero1-button">
                 View Products
                 <span class="ml-2">&#8594;</span>
             </button>

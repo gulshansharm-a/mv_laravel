@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    @include('nav')
     <style>
         * {
             margin: 0;
@@ -34,11 +33,23 @@
             width: 80%; /* Set width to 90% */
             margin: 0 auto; /* Center the div */
         }
+        .myboxtext{
+            font-size:18px !important;
+            color:000000 !important
+        }
+        .myboxheading{
+            color:linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%) !important;
+            font-size:36x !important;
+            font-weight:bold
+        }
     </style>
 </head>
 <body>
-  @include('hero1')
-<div id="div-center">
+    @include('nav')
+    <div>
+    @include('hero1')
+    </div>
+    <div id="div-center">
     <div id="widths">
         @include('herosection')
         @include('aboutus')

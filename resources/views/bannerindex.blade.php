@@ -15,7 +15,7 @@
       justify-content: space-around;
     }
     #banner, #banner1 {
-      width: 90%;
+      width: 100%;
       height: 50%;
       background-size: cover;
       background-repeat: no-repeat;
@@ -33,7 +33,8 @@
       #banner {
         background-image: url('images/mobile-banner.png');
         background-position: center;
-        background-size: contain;
+        background-size: contain; 
+        width: 100% !important;
       }
       #banner1 {
         background-image: url('images/mobile-banner1.png');
@@ -46,7 +47,7 @@
   </style>
 </head>
 <body>
-  <section class="container my-2 mt-5">
+  <section class="container-fluid my-2 mt-5">
     <div id="banners">
       <div id="banner">
         <a href="Roca.pdf" download="Roca.pdf" style="display: block; width: 100%; height: 100%; text-decoration: none; color: inherit;">

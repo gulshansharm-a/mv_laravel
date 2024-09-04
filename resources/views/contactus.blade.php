@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact Us</title>
     <!-- Bootstrap CSS -->
     <style>
         .contact-wrapper {
@@ -39,9 +39,12 @@
         }
 
         .contact-wrapper .submit-btn {
-            width: 100%;
-            background-color: #007bff;
-            border-color: #007bff;
+            width: auto;
+            background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+
+            color: #fff; /* Text color */
+            padding: 12px 30px;
+            border-radius:7px;
         }
     </style>
 </head>
@@ -53,8 +56,8 @@
             <img src="images/contactus.png" alt="Decorative hanging lights with plants" class="image-responsive rounded-lg">
         </div>
         <div class="col-md-6">
-            <h2 class="primary-text mb-4">Connect with us</h2>
-            <p class="secondary-text mb-4">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+            <h2 class="primary-text mb-4 myboxheading">Connect with us</h2>
+            <p class="secondary-text mb-4 myboxtext">Borem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
             <form action="#" method="POST">
                 <div class="row mb-3">
                     <div class="col-md-6">
@@ -80,9 +83,11 @@
                     <label for="message" class="form-label">Message</label>
                     <textarea id="message" name="message" rows="4" placeholder="Write your message.." class="input-control"></textarea>
                 </div>
-                <button type="submit" class="submit-btn">
-                    Send Message
-                </button>
+                <div class="text-end">
+                    <button type="submit" class="submit-btn">
+                        Send Message
+                    </button>
+                </div>
             </form>
         </div>
     </div>

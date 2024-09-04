@@ -262,6 +262,15 @@
             justify-content: center;
             align-items: center;
         }
+        .myboxtext{
+            font-size:18px !important;
+            color:000000 !important
+        }
+        .myboxheading{
+            color:linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%) !important;
+            font-size:linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%) !important;
+            font-weight:bold
+        }
     </style>
     <script>
         window.addEventListener("load", function () {
@@ -271,7 +280,7 @@
 
     <section id="hero-section">
         <div id="hero-sectionpart1" data-aos="slide-right" data-aos-duration="1000">
-            <h4 style="">ABOUT US</h4>
+            <p  class="myboxheading">ABOUT US</p>
             <br>
             <br>
             <h1>Our vision is to make work inspiring and fulfilling</h1>

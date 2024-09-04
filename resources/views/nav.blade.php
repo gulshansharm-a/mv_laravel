@@ -51,15 +51,15 @@
         #container-navigation ul li a {
             text-decoration: none;
         }
-
         #gradient-text {
-            background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            font-weight: 700;
-            margin: 0;
-        }
+    background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
 
         #container-navigation ul li a:hover {
             background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
@@ -71,9 +71,8 @@
 
         #div-contact {
             background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
-            height: 40px;
+            padding:15px 30px;
             margin-right: 30px;
-            width: 120px;
             border-radius: 30px;
             display: flex;
             align-items: center;
@@ -140,8 +139,8 @@
             top: 90px;
             width: 100%;
             left: 0;
-            transform: translateY(-20px);
             opacity: 0;
+            transform: translateY(-20px);
             transition: all 0.3s ease;
             z-index: 100;
         }
@@ -193,10 +192,10 @@
 <body>
     <nav class="navbar">
         <div id="container-logo">
-            <a href="index.html">
+            <a href="/">
                 <img src="/images/logo.png" id="logo" alt="Logo">
             </a>
-            <p id="gradient-text">Motvic Consumable <br> Electrical PVT ltd</p>
+            <p id="gradient-text"   >Motvic Consumable <br> Electrical PVT ltd</p>
         </div>
         <div id="container-navigation">
             <ul>
@@ -205,7 +204,7 @@
             </ul>
         </div>
         <div id="div-contact">
-            <h5><a href="/contact.html" class="button-contactus11">Contact Us</a></h5>
+            <h5><a href="/contact" class="button-contactus11">Contact Us</a></h5>
         </div>
         <div class="hamburger-menu" onclick="toggleMenu()">
             <div class="hamburger-icon">
@@ -218,9 +217,9 @@
 
     <div class="mobile-menu" id="mobileMenu">
         <ul>
-            <li><a href="/aboutus.html" class="mEdits">About Us</a></li>
-            <li><a href="/categories.html" class="mEdits">Categories</a></li>
-            <li><a href="/contact.html" class="mEdits">Contact Us</a></li>
+            <li><a href="/aboutus" class="mEdits">About Us</a></li>
+            <li><a href="/categories" class="mEdits">Categories</a></li>
+            <li><a href="/contact" class="mEdits">Contact Us</a></li>
         </ul>
     </div>
 
