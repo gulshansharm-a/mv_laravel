@@ -460,9 +460,11 @@ text-align: center;}
                     }
                 }
             </style>
-            <div id="fix-issue" data-aos="flip-up" data-aos-mirror="true" data-aos-duration="1000">
-                <div class="slider-container">
-                    <div class="slider" >
+            <div>
+
+                <div id="fix-issue" data-aos="flip-up" data-aos-mirror="true" data-aos-duration="1000">
+                    <div class="slider-container">
+                        <div class="slider" >
                         <div class="card">
                             <img src="/images/led-square.png"     alt="Square LED Panel Light">
                             <h2>LED Panel Light</h2>
@@ -498,51 +500,10 @@ text-align: center;}
                     </div>
                 </div>
             </div>
+            </div>
         </section>
     </div>
-    <style>
-        #boucher-section {
-            background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
-            height: 300px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            color: white;
-            font-weight: bolder;
-            margin-top: 40px;
-        }
-
-        #boucher-button {
-            height: 80px;
-            width: 250px;
-            border-radius: 40px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: white;
-            color: #0056b3;
-        }
-
-        @media only screen and (max-width: 1520px) {
-            #boucher-section {
-                background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
-                height: 300px;
-                display: flex;
-                justify-content: space-around;
-                flex-direction: column;
-                align-items: center;
-                color: white;
-                font-weight: bolder;
-                margin-top: 40px;
-            }
-        }
-    </style>
-   <section id="boucher-section" data-aos="flip-down" data-aos-mirror="true" data-aos-duration="1000">
-    <h1>Download Our Brochure</h1>
-    <a href="./Broucher.pdf" download id="boucher-button">
-        <h3>Download Now</h3>
-    </a>
-</section>
+  @include('broucher')
 
 @include('contactus')
     <footer data-aos="fade-out" data-aos-mirror="true" data-aos-duration="1000">

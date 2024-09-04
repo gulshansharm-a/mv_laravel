@@ -1,67 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Boucher Section</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Custom Styles */
+<style>
         #boucher-section {
-            border-radius: 15px;
             background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
-            padding: 20px;
+            height: 300px;
             display: flex;
-            justify-content: space-between; /* Align items to the edges */
-            align-items: center; /* Center items vertically */
+            justify-content: space-around;
+            align-items: center;
             color: white;
             font-weight: bolder;
-            text-align: left; /* Align text to the left */
-            max-width: 1200px; /* Limit the maximum width */
-            margin: 0 auto; /* Center the section horizontally */
-        }
-
-        #boucher-section .text-content {
-            flex: 1; /* Allow the text content to take available space */
+            margin-top: 40px;
         }
 
         #boucher-button {
-            padding: 15px 40px;
+            height: 80px;
+            width: 250px;
             border-radius: 40px;
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: center;
             background-color: white;
             color: #0056b3;
-            text-decoration: none;
-            font-size: 1rem;
         }
 
-        @media (max-width: 768px) {
+        @media only screen and (max-width: 1520px) {
             #boucher-section {
-                flex-direction: column; /* Stack items vertically on smaller screens */
-                text-align: center; /* Center text alignment */
+                background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+                height: 300px;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                align-items: center;
+                color: white;
+                font-weight: bolder;
+                margin-top: 40px;
             }
-
-            #boucher-button {
-                padding: 10px 30px;
-                font-size: 0.9rem;
-            }
+        }
+        .rad{
+            border-radius: 30px
         }
     </style>
-</head>
-<body>
-    <section class="container ">
-        <div id="boucher-section" class="row gx-4"> <!-- Added gx-4 for horizontal spacing -->
-            <div class="col-md-6 text-content">
-                <h2 class="mx-5">Download Our Latest Brochure!</h2>
-            </div>
-            <div class="col-md-6 text-md-end">
-                <a id="boucher-button" href="#">Download Now</a>
-            </div>
-        </div>
-    </section>
+    <div class=" rad container  ">
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+        <section id="boucher-section" data-aos="flip-down" data-aos-mirror="true" data-aos-duration="1000">
+            <h1>Download Our Brochure</h1>
+            <a href="./Broucher.pdf" download id="boucher-button">
+                <h3>Download Now</h3>
+            </a>
+        </section>
+    </div>

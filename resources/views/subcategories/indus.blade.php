@@ -522,12 +522,7 @@ text-align: center;}
             }
         }
     </style>
-   <section id="boucher-section" data-aos="flip-down" data-aos-mirror="true" data-aos-duration="1000">
-    <h1>Download Our Brochure</h1>
-    <a href="./Broucher.pdf" download id="boucher-button">
-        <h3>Download Now</h3>
-    </a>
-</section>
+  @include('broucher')
 
 @include('contactus')
     <footer data-aos="fade-out" data-aos-mirror="true" data-aos-duration="1000">
