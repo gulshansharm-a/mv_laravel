@@ -33,3 +33,6 @@ Route::get('/industrial', function () {
 Route::get('/solar', function () {
     return view('subcategories.solar');
 });
+Route::get('/other', function () {
+    return view('subcategories.other');
+});
