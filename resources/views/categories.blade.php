@@ -560,6 +560,7 @@
 
 
 @include('contactus')
+@include('footer')
 
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
