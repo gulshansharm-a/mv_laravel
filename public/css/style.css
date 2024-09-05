@@ -81,15 +81,15 @@
 .form-group textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  font-size: 16px;
+ border: none;
+  font-size: 26px;
 }
 
 .form-group input:focus,
 .form-group textarea:focus {
   outline: none;
   border-color: #007bff;
+  border: none;
 }
 
 .form-group input[type="text"],
@@ -105,6 +105,7 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+
 }
 
 .form-group input[type="submit"]:hover {
@@ -136,6 +137,7 @@
     padding: 13px;
     border-radius: 30px;
     border: none;
+
    
 }
 #button-contactus1 p{
@@ -607,7 +609,7 @@ input:focus {
 
 input {
   height: 60px;
-  padding: 10px;
+  padding: 20px;
 }
 #unique{
   margin-left:40px
@@ -644,6 +646,7 @@ textarea.form-control {
   font-size: 1.25rem;
   /* Increase font size */
   padding: 1rem;
+  border: none !important;
   /* Increase padding */
 }
 
@@ -1227,4 +1230,7 @@ html, body {
 }
 *, *::before, *::after {
   box-sizing: border-box;
+}
+.contact-wrapper .input-control{
+  border: none;
 }

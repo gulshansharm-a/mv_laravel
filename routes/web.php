@@ -36,3 +36,7 @@ Route::get('/solar', function () {
 Route::get('/other', function () {
     return view('subcategories.other');
 });
+
+Route::get('/index', function () {
+    return view('index');
+});
