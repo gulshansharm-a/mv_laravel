@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,24 +11,17 @@
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
     <style>
-        html{
-            overflow-x:hidden;
+        html {
+            overflow-x: hidden;
         }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            background-color: #F5F5F5;
-            font-family: "Plus Jakarta Sans", sans-serif !important;
-            overflow-x: hidden !important;
+        body{
+        
         }
 
         h1 {
@@ -56,36 +50,58 @@
             font-size: 36px !important;
             font-weight: bold;
         }
-        
+        #heromobile{
+            display: none;
+        }
+        @media only screen and (max-width: 700px) {
+            #heromobile{
+            display: block;
+
+        }
+        #herodesk{
+            display: none;
+        }
+        }
     </style>
 </head>
+
 <body>
     @include('nav')
-    <div>
-        @include('hero1')
-    </div>
-    <div id="div-center">
-        <div id="widths">
-            @include('aboutus')
-            @include('cards')
+    @include('hero1')
+    <div style="margin-left:5vw;margin-right:5vw">
+        <div id="herodesk">
 
+            @include('herosection')
         </div>
-        @include('bannerindex')
-        @include('ourclient')
-        @include('contactus')
-      
-    
+    <div id="heromobile">
+
+        @include('herosectionmobile')
     </div>
+    <div style="margin-left:5vw;margin-right:5vw">
+    @include('aboutus')
+    @include('cards')
+
+    </div>
+
+    </div>
+    @include('ourclient')
+    @include('banner')
+    <br>
+    <br>
+    <br>
+    <br>
+    @include('contactus')
     @include('footer')
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-<style>
-    input{
+    <style>
+        input {
             border-bottom: 2px solid #f00;
         }
-</style>
+    </style>
 </body>
+
 </html>

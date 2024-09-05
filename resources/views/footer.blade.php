@@ -23,14 +23,18 @@
             display:flex;
             align-items:center;
         }
+        #fot {
+    background: url('images/footerimage.png') no-repeat center center;
+    background-size: cover;
+}
 
     </style>
 </head>
 
-<body class="bg-gray-100">
+<body class="bg-gray-100" >
 
     <!-- Footer Section -->
-    <footer class="bg-white shadow-md p-6">
+    <footer class="bg-white shadow-md p-6" id="fot">
         <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start" id="fix-footers">
             
             <!-- Logo and Company Info -->

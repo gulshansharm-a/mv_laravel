@@ -128,6 +128,13 @@
     font-size: 1.2rem;
     line-height: 1.5;
 }
+.myboxheading{
+    background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 8px;
+    color: transparent;
+}
 
 @media only screen and (max-width: 1180px) {
     #card-section {
@@ -158,12 +165,15 @@
         font-size: 1.1rem; /* Smaller font size for mobile */
     }
 }
-
+.dipper{
+    border: 2px solid #3774DD;
+    width: 100px;
+}
 </style>
-<section id="about-us" class="container my-2 mt-5">
-        <div class="row align-items-center">
+<section id="about-us container">
+        <div class="row ">
             <!-- Text Content (Left Side) -->
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6 mt-5">
                 <div class="d-flex align-items-center justify-content-start mb-3">
                     <div class="dipper"></div>
                     <h3 class="text-center myboxheading" id="myboxheading">About us</h3>
@@ -171,12 +181,14 @@
                 <h1 id="about-us-title" class="myboxtext1">
                     We help to bring your dream home to reality
                 </h1>
+                <br>
                 <p class="mt-3 myboxtext">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.
                     <br>
                     <br>
                     Tempor dolor elementum tellus non ipsum faucibus. Justo, magna mauris posuere auctor justo. Habitant proin aliquet volutpat leo ultricies. Dui blandit eget vitae turpis ultrices aliquet nunc. Faucibus sit odio bibendum lobortis diam.
-                    
+                    <br>
+                    <br>
                 </p>
             </div>
 
@@ -189,3 +201,7 @@
             </div>
         </div>
     </section>
+
+
+
+    
