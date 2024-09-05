@@ -58,11 +58,12 @@
 
         @include('aboutus')
         <!-- @include('cards') -->
+        @include('cards')
     </div>
-
-        @include('ourclient')
-
-
+    
+    
+    
+    @include('ourclient')
 
         @include('bannerindex')
     @include('contactus')

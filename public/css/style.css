@@ -81,7 +81,7 @@
 .form-group textarea {
   width: 100%;
   padding: 10px;
- border: none !important;
+ border: none;
   font-size: 26px;
 }
 
@@ -89,7 +89,7 @@
 .form-group textarea:focus {
   outline: none;
   border-color: #007bff;
-  border: none !important;
+  border: none;
 }
 
 .form-group input[type="text"],
