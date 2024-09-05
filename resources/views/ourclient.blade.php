@@ -29,7 +29,7 @@
 
         .marquee__group img {
             margin: 0 8px;
-            height: 60px;
+            height: 120px;
             width: auto;
             max-width: 120px;
             object-fit: contain;

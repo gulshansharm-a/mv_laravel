@@ -55,11 +55,7 @@
             max-width: 1200px;
         }
 
-        img {
-            border-radius: 15px;
-            max-height: 500px;
-            object-fit: cover;
-        }
+       
 
         .mForm-title {
             color: #007bff;
@@ -335,6 +331,8 @@ align-items: start;
             <img src="/images/vision.png" alt="" srcset="">
         </div>
     </section>
+    <br>
+    <br>
    @include('contactus')
 
 
@@ -343,78 +341,9 @@ align-items: start;
 
     <br>
     <br>
-    <footer data-aos="fade-right" data-aos-duration="1000">
-        <div id="section1footer">
-            <img src="/images/logo.png" height="100px" alt="" srcset="">
-            <h1 style="margin-top: 30px;">Motvic Consumable <br> Electrical PVT ltd</h1>
-            <p style="margin-top: 30px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero
-                et velit interdum, ac
-                aliquet odio mattis.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et
-                velit interdum, a</p>
-
-        </div>
-        <style>
-            a {
-                text-decoration: none;
-                /* Removes the underline */
-                color: inherit;
-                /* Inherits the color from the parent element */
-            }
-        </style>
-        <div id="section2footer">
-            <ul>
-                <a href="/home.html">
-
-                    <li>Home</li>
-                </a>
-                <a href="/categories.html">
-
-                    <li>Categories</li>
-                </a>
-                <a href="/aboutus.html">
-
-                    <li>AboutUs</li>
-                </a><a href="/contact.html">
-
-                    <li>Contact Us</li>
-                </a>
-            </ul>
-            <div id="phone-footer">
-                <img src="/images/phone.png" alt="" id="phone-img" srcset="" height="40px">
-                <label for="" style="font-size: 1.4rem; color: black;">
-                    +91 99203 12344
-                </label>
-            </div>
-
-        </div>
-        <div id="section3footer">
-            <div id="socialmedia">
-                <h5>Social Links</h5>
-                <div id="footersocial">
-
-                    <a href="https://www.linkedin.com/company/motvic-consumable-electrical-p-ltd">
-                        <img src="/images/linkdein.png" class="social" height="60px" alt="">
-                    </a>
-                    <!-- <img src="images/facebook.png" class="social" height="60px" alt=""> -->
-                    <a href="https://www.instagram.com/motvic_consumable/?igsh=MWJicWc2ZGoyZ280MA%3D%3D"> <img
-                            src="images/instagram.png" class="social" height="60px" alt="">
-                    </a>
-                </div>
-            </div>
-            <div id="footermail">
-                <img src="/images/mail.png" height="40px" alt="">
-                <h4>sales@mvconsumable.com <br>
-                    vijay@motvic.co
-                </h4>
-            </div>
-        </div>
-    </footer>
-    <div id="second-footertitle">
-        <h5>Designed, Ideated & Developed with ❤️ by Digilligent</h5>
-        <h5 style="color: grey;">©️ Motvic Consumables Electrical PVT LTD</h5>
-        <h5 style="color: grey;">Terms and conditions</h5>
-
-    </div>
+  
+       
+  @include('footer')
     <script src="/javascript/index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
