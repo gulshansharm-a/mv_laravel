@@ -10,7 +10,7 @@
             background: url('/images/Pattern.png');
         }
         .img-fixauot{
-            
+
         }
     </style>
 </head>
@@ -91,6 +91,11 @@
                 </div>
             </div>
         </div>
+
+
+
+
+        
 
     </div>
     <br><br>
