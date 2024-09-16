@@ -88,7 +88,7 @@
                 <div class="mb-4 md:mb-0">
                     <i class="fas fa-envelope mr-2 text-blue-500"></i>
                     <span class="text-lg font-semibold">sales@mvconsumable.com</span><br>
-                    <span class="text-lg font-semibold">vijay@motvic.co</span>
+               
                 </div>
             </div>
 
