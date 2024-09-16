@@ -51,8 +51,12 @@
             padding: 18px 20px;
             color: blue;
             border: none;
+            font-weight: 400;
             border-radius: 28px;
             margin-top: 30px; /* Add space above the button */
+        }
+        #fix-text-hero{
+            display:flex; justify-content: flex-start; flex-direction: column; 
         }
 
         /* Responsive styles for tablets */
@@ -62,6 +66,7 @@
             }
 
             .hero-paragraph {
+                text-align: center !important; /* Adjust font size for mobile devices */
                 font-size: 16px !important; /* Adjust font size for tablet devices */
             }
             .hero-button {
@@ -71,6 +76,14 @@
             border: none;
             border-radius: 28px;
             margin-top: 30px; /* Add space above the button */
+        }
+        #mfix{
+            padding: 10%;
+         
+        }
+        #mfix h1{
+          font-size: 1.1rem;
+         
         }
 
         }
@@ -82,7 +95,8 @@
             }
 
             .hero-paragraph {
-                font-size: 1.2rem !important; /* Adjust font size for mobile devices */
+                font-size: 1.2rem !important;
+                text-align: center !important; /* Adjust font size for mobile devices */
             }
 
             .hero-button {
@@ -94,19 +108,23 @@
 
 <body>
     <div id="hero-back">
-        <div class="content mt-3">
+        <div class="content mt-3" id="mfix">
+            </div>
+            <div style="" id="fix-text-hero">
             <h1 class="hero-heading display-3 font-weight-bold text-light">
                 Smart Lighting Solutions with <br> Motvic Consumable Lights
             </h1>
+            <br>
             <p class="hero-paragraph text-secondary lead">
                 Worem ipsum dolor sit amet, consectetur adipiscing elit. <br>
                 Nunc vulputate libero et velit interdum, ac aliquet odio mattis.
             </p>
-            <button class="hero-button">
-                View Products
-                <span class="ml-2">&#8594;</span>
-            </button>
+
         </div>
+        <button class="hero-button">
+            View Products
+            <span class="ml-2"  >&#8594;</span>
+        </button>
     </div>
 </body>
 

@@ -120,36 +120,61 @@
 
             <div
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
-
+                
                 <div id="box-curve">
-                    <img src="/images/bshop.png" alt="" srcset="">
-                </div>
-                <h3 class="all">Commercial Light</h3>
-            </div>
+        <a href="/commercial" style="color: black">
+        <img src="/images/bshop.png" alt="" srcset="">
+    </a>
+    </div>
+    <h3 class="all">
+        <a href="/commercial">
+
+            Commercial Light
+        </a>
+    </h3>
+</div>
 
             <div
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
                 <div id="box-curve">
-                    <img src="/images/fbr.png" alt="" srcset="">
+                    <a href="/retail">
+
+                        <img src="/images/fbr.png" alt="" srcset="">
+                    </a>
                 </div>
-                <h3 class="all">Retail-Light</h3>
+                <a href="/retail">
+
+                    <h3 class="all">Retail-Light</h3>
+                </a>
             </div>
             <div
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
                 <div id="box-curve">
-                    <img src="/images/mslb.png" alt="" srcset="">
+                    <a href="/landscape">
+
+                        <img src="/images/mslb.png" alt="" srcset="">
+                    </a>
                 </div>
-                <h3 class="all">Landscape Light</h3>
+                <a href="/landscape">
+
+                    <h3 class="all">Landscape Light</h3>
+                </a>
             </div>
             <div
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
                 <div id="box-curve">
-                    <img src="/images/bhome.png" alt="" srcset="">
+                    <a href="/architecture">
+
+                        <img src="/images/bhome.png" alt="" srcset="">
+                    </a>
                 </div>
-                <h3 class="all">Architectural Light</h3>
+                <a href="/architectural">
+
+                    <h3 class="all">Architectural Light</h3>
+                </a>
             </div>
 
 
@@ -157,26 +182,45 @@
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
                 <div id="box-curve">
-                    <img src="/images/bindust.png" alt="" srcset="">
+                    <a href="/industrial">
+
+                        <img src="/images/bindust.png" alt="" srcset="">
+                    </a>
+
                 </div>
-                <h3 class="all">Industrial Light </h3>
+                <a href="/industrial">
+
+                    <h3 class="all">Industrial Light </h3>
+                </a>
             </div>
             <div
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
                 <div id="box-curve">
-                    <img src="/images/bpl.png" alt="" srcset="">
+                    <a href="/solar">
+
+                        <img src="/images/bpl.png" alt="" srcset="">
+                    </a>
                 </div>
-                <h3 class="all">SolarLight </h3>
+                <a href="/solar">
+
+                    <h3 class="all">SolarLight </h3>
+                </a>
 
             </div>
             <div
                 style="display: flex; align-items: center; justify-content: center; flex-direction: column; width: 250px; margin-top: 20px">
 
                 <div id="box-curve">
-                    <img src="/images/bother.png" alt="" srcset="">
+                    <a href="/other">
+
+                        <img src="/images/bother.png" alt="" srcset="">
+                    </a>
                 </div>
-                <h3 class="all" style="margin-right: 20px ;">Other-Light</h3>
+                <a href="/other">
+
+                    <h3 class="all" style="margin-right: 20px ;">Other-Light</h3>
+                </a>
             </div>
 
 
@@ -218,7 +262,9 @@
                         align-items: center;
                         justify-content: center;
                         border: none;
+                        margin-top: 30px;
                         border-radius: 30px;
+                        padding-bottom: 10px;
 
                     }
 
@@ -229,7 +275,7 @@
                     }
                 </style>
                 <button id="cat-button">
-                    <a href="/subCategories.html">
+                    <a href="/commercial">
                         <p>View Category</p>
                     </a>
                 </button>
@@ -291,14 +337,14 @@
                     }
 
                     #cat-button a p {
-                        margin-top: 15px;
+                       
                         color: white;
                         font-size: 1.1rem;
                     }
                 </style>
 
                 <button id="cat-button">
-                    <a href="/Retial.html">
+                    <a href="/retail">
                         <p>View Category</p>
                     </a>
                 </button>
@@ -338,7 +384,7 @@
 
                 </style>
                 <button id="cat-button">
-                    <a href="/landscape.html">
+                    <a href="/landscape">
                         <p>View Category</p>
                     </a>
                 </button>
@@ -373,6 +419,7 @@
                     #cat-button {
                         width: 180px;
                         background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
+                        height: 60px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -388,7 +435,7 @@
                     }
                 </style>
                 <button id="cat-button">
-                    <a href="/Architectural.html">
+                    <a href="/architecture">
                         <p>View Category</p>
                     </a>
                 </button>
@@ -440,7 +487,7 @@
                     }
                 </style>
                 <button id="cat-button">
-                    <a href="/Industrial.html">
+                    <a href="/industrial">
                         <p>View Category</p>
                     </a>
                 </button>
@@ -485,13 +532,13 @@
                     }
 
                     #cat-button a p {
-                        margin-top: 15px;
+                     
                         color: white;
                         font-size: 1.1rem;
                     }
                 </style>
                 <button id="cat-button">
-                    <a href="/solar.html">
+                    <a href="/solar">
                         <p>View Category</p>
                     </a>
                 </button>
@@ -526,25 +573,10 @@
                     <p>Perfect for modern offices and large-scale businesses. </p>
                 </ul>
                 <style>
-                    #cat-button {
-                        width: 180px;
-                        background: linear-gradient(180deg, #0551D5 0%, #27A8F0 100%);
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                        border: none;
-                        border-radius: 30px;
-
-                    }
-
-                    #cat-button a p {
-                        margin-top: 15px;
-                        color: white;
-                        font-size: 1.1rem;
-                    }
+               
                 </style>
                 <button id="cat-button">
-                    <a href="other.html">
+                    <a href="/other">
                         <p>View Category</p>
                     </a>
                 </button>

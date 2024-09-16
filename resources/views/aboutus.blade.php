@@ -169,6 +169,9 @@
     border: 2px solid #3774DD;
     width: 100px;
 }
+#text-fix{
+    font-size: 1.3rem !important;
+}
 </style>
 <section id="about-us container">
         <div class="row ">
@@ -182,7 +185,7 @@
                     We help to bring your dream home to reality
                 </h1>
                 <br>
-                <p class="mt-3 myboxtext">
+                <p class="mt-3 myboxtext" id="text-fix" >
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus fringilla dui amet faucibus nam. Erat id laoreet posuere etiam morbi.
                     <br>
                     <br>

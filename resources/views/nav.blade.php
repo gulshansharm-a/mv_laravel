@@ -1,7 +1,7 @@
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: Plus Jakarta Sans, sans-serif;
             overflow-x: hidden; /* Prevent horizontal overflow */
             transition: overflow 0.3s ease;
         }
@@ -29,13 +29,15 @@
         }
 
         #container-navigation {
+            width: 35%;
             display: flex;
-            align-items: center;
+           justify-content: center;
         }
 
         #container-navigation ul {
+            width: 100%;
             display: flex;
-            gap: 56px;
+            justify-content: space-around;
             font-size: 20px;
             list-style: none;
             padding: 0;
@@ -43,7 +45,10 @@
         }
 
         #container-navigation ul li a {
+            font-family: Plus Jakarta Sans, sans-serif;
             text-decoration: none;
+            font-weight: 500;
+            font-size: 1.4rem;
         }
         #gradient-text {
     background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
@@ -162,7 +167,19 @@
             color: white;
             text-decoration: none;
         }
-
+        .mEdits{
+            color: black;
+        }
+        .mEdits:hover{
+            background: linear-gradient(180deg, #275FAB 0%, #5ABDDE 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 8px;
+    color: transparent;
+        }
+a{
+    color: black;
+}
         @media (max-width: 850px) {
             #container-navigation, #div-contact {
                 display: none;

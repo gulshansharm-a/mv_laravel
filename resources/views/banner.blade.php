@@ -109,7 +109,7 @@
                     <div class="left-side-margin">
                         <img src="images/roco.png" height="70px" alt="">
                         <br><br>
-                        <h3>Jorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate.</h3>
+                        <h3>Always have our latest broucher and pricelists to hand.</h3>
                         <br>
                         <img src="images/viewproductbutton.png" width="300px" alt="">
                     </div>

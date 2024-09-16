@@ -23,7 +23,7 @@
 <body>
     <div id="flex-fix" >
         <h1>All categories</h1>
-        <h5>View All</h5>
+        <h5 style="text-decoration:underline; cursor:pointer">View All</h5>
     </div>
   <div style="display:flex; flex-wrap:wrap; align-items:center; gap: 1rem;">
     <!-- Card 1 -->
@@ -34,7 +34,7 @@
           <p class="mt-1 text-xs text-black">Best and affordable LED Lamps</p>
           <button class="mt-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-2 rounded-lg text-xs" style="width:100px;height:30px" > All categories </button>
         </div>
-        <div class="relative bg-blue-600 rounded-r-lg flex items-center justify-center">
+        <div class="relative bg-[linear-gradient(180deg,_#0551D5_0%,_#27A8F0_100%)] rounded-r-lg flex items-center justify-center">
           <img src="/images/product1.png" style="height: 90px; width: 160px;" alt="LED Lamp" class="object-contain">
         </div>
       </div>
@@ -48,7 +48,7 @@
           <p class="mt-1 text-xs text-black">Best and affordable LED Lamps</p>
           <button class="mt-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-2 rounded-lg text-xs" style="width:100px;height:30px" > All categories </button>
         </div>
-        <div class="relative bg-blue-600 rounded-r-lg flex items-center justify-center">
+        <div class="relative bg-[linear-gradient(180deg,_#0551D5_0%,_#27A8F0_100%)] rounded-r-lg flex items-center justify-center">
           <img src="/images/product2.png" style="height: 90px; width: 160px;" alt="LED Lamp" class="object-contain">
         </div>
       </div>
@@ -62,7 +62,7 @@
           <p class="mt-1 text-xs text-black">Best and affordable LED Lamps</p>
           <button class="mt-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-2 rounded-lg text-xs" style="width:100px;height:30px" > All categories </button>
         </div>
-        <div class="relative bg-blue-600 rounded-r-lg flex items-center justify-center">
+        <div class="relative bg-[linear-gradient(180deg,_#0551D5_0%,_#27A8F0_100%)] rounded-r-lg flex items-center justify-center">
           <img src="/images/product3.png" style="height: 90px; width: 160px;" alt="LED Lamp" class="object-contain">
         </div>
       </div>
@@ -76,7 +76,7 @@
           <p class="mt-1 text-xs text-black">Best and affordable LED Lamps</p>
           <button class="mt-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-2 rounded-lg text-xs" style="width:100px;height:30px" > All categories </button>
         </div>
-        <div class="relative bg-blue-600 rounded-r-lg flex items-center justify-center">
+        <div class="relative bg-[linear-gradient(180deg,_#0551D5_0%,_#27A8F0_100%)] rounded-r-lg flex items-center justify-center">
           <img src="/images/product4.png" style="height: 90px; width: 160px;" alt="LED Lamp" class="object-contain">
         </div>
       </div>
@@ -90,7 +90,7 @@
           <p class="mt-1 text-xs text-black">Best and affordable LED Lamps</p>
           <button class="mt-2 bg-gradient-to-r from-blue-500 to-blue-700 text-white py-1 px-2 rounded-lg text-xs" style="width:100px;height:30px" > All categories </button>
         </div>
-        <div class="relative bg-blue-600 rounded-r-lg flex items-center justify-center">
+        <div class="relative bg-[linear-gradient(180deg,_#0551D5_0%,_#27A8F0_100%)] rounded-r-lg flex items-center justify-center">
           <img src="/images/chim.png" style="height: 90px; width: 160px;" alt="LED Lamp" class="object-contain">
         </div>
       </div>
